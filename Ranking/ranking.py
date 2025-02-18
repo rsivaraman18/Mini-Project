@@ -5,7 +5,7 @@ cursor=connection.cursor()
 cursor.execute("SELECT name,total,result,rank,rollno FROM school order by total DESC ")
 result=cursor.fetchall()
 #print(result)
-
+ 
 '''convert tuple to list'''
 mylist1=[]
 for i in result:
